@@ -1049,6 +1049,314 @@ BANCO: List[Pregunta] = [
         ],
         "Según el RD-Ley 12/2018, IRIS-CERT es el CSIRT asignado para la red académica española (RedIRIS).",
     ),
+    Pregunta(
+        "Infraestructuras críticas",
+        "¿Cuál es la denominación exacta de la Ley 8/2011, de 28 de abril?",
+        "Ley por la que se establecen medidas para la protección de las infraestructuras críticas",
+        [
+            "Ley de Protección de Datos de Carácter Estratégico",
+            "Ley de Seguridad Nacional y Protección de Activos",
+            "Ley de Seguridad de las Redes y Sistemas de Información"
+        ],
+        "La Ley 8/2011, de 28 de abril, establece medidas para la protección de las infraestructuras críticas."
+    ),
+    Pregunta(
+        "Protección de datos",
+        "Identifique la ley que sustituyó a la antigua LOPD 15/1999 en el año 2018 para adaptarse al Reglamento Europeo.",
+        "Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales",
+        [
+            "Ley Orgánica 5/2018, de Medidas Urgentes para la Adaptación al Derecho Europeo",
+            "Ley Orgánica 1/2018, de Protección de la Privacidad en Internet",
+            "Ley 34/2018, de Servicios de la Sociedad de la Información"
+        ],
+        "La Ley Orgánica 3/2018 (LOPDGDD) adapta el derecho español al RGPD europeo y añade derechos digitales, sustituyendo a la antigua LOPD 15/1999. El RDL 5/2018 fue provisional y la LSSI es de 2002."
+    ),
+    Pregunta(
+        "ENS",
+        "¿Qué disposición regula el Esquema Nacional de Seguridad (ENS) en España?",
+        "Real Decreto 3/2010, de 8 de enero",
+        [
+            "Ley 11/2007, de Acceso Electrónico",
+            "Real Decreto 4/2010, de 8 de enero",
+            "Real Decreto 1720/2007, de 21 de diciembre"
+        ],
+        "El Esquema Nacional de Seguridad (ENS) está regulado por el Real Decreto 3/2010, de 8 de enero."
+    ),
+    Pregunta(
+        "LSSI-CE",
+        "¿Cómo se denomina la Ley 34/2002 que regula, entre otros, el envío de comunicaciones comerciales electrónicas (Spam)?",
+        "Ley de Servicios de la Sociedad de la Información y de Comercio Electrónico",
+        [
+            "Ley General de Telecomunicaciones y Servicios Digitales",
+            "Ley de Medidas de Impulso de la Sociedad de la Información",
+            "Ley de Regulación del Comercio Minorista por Internet"
+        ],
+        "La Ley 34/2002, de 11 de julio, se denomina Ley de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE)."
+    ),
+    Pregunta(
+        "Transposición NIS",
+        "¿Cuál es el título oficial del Real Decreto-Ley 12/2018, de 7 de septiembre?",
+        "Seguridad de las redes y sistemas de información",
+        [
+            "Medidas urgentes para la ciberdefensa nacional",
+            "Protección de datos en el ámbito de las comunicaciones electrónicas",
+            "Regulación de los CSIRT y centros de respuesta a incidentes"
+        ],
+        "El Real Decreto-Ley 12/2018, de 7 de septiembre, tiene como título oficial 'de seguridad de las redes y sistemas de información', trasponiendo la Directiva NIS."
+    ),
+    Pregunta(
+        "Protección de datos",
+        "La primera ley española que reguló específicamente el tratamiento automatizado de datos personales fue:",
+        "Ley Orgánica 5/1992 (LORTAD)",
+        [
+            "Ley 11/2007 de Acceso Electrónico",
+            "Ley 30/1992 de Régimen Jurídico de las Administraciones Públicas",
+            "Ley Orgánica 15/1999 (LOPD)"
+        ],
+        "La Ley Orgánica 5/1992, de 29 de octubre, de Regulación del Tratamiento Automatizado de los Datos de Carácter Personal (LORTAD), fue la primera norma en España sobre la materia."
+    ),
+    Pregunta(
+        "Conservación de datos",
+        "¿Qué ley regula específicamente la conservación de datos relativos a las comunicaciones electrónicas y redes públicas?",
+        "Ley 25/2007, de 18 de octubre",
+        [
+            "Ley 59/2003, de 19 de diciembre",
+            "Ley 9/2014, de 9 de mayo",
+            "Ley 56/2007, de 28 de diciembre"
+        ],
+        "La Ley 25/2007, de 18 de octubre, regula la conservación de datos relativos a las comunicaciones electrónicas y a las redes públicas de comunicaciones."
+    ),
+    Pregunta(
+        "Firma electrónica",
+        "¿Cuál es la norma que regula la firma electrónica en España y define conceptos como la 'firma avanzada'?",
+        "Ley 59/2003, de 19 de diciembre",
+        [
+            "Ley 11/2007, de 22 de junio",
+            "Real Decreto 209/2003",
+            "Directiva 95/46/CE"
+        ],
+        "La Ley 59/2003, de 19 de diciembre, regulaba la firma electrónica en España y definía la firma avanzada y la firma reconocida."
+    ),
+    Pregunta(
+        "Administración electrónica",
+        "¿Qué ley se conoce comúnmente como LAECSP?",
+        "Ley 11/2007, de Acceso Electrónico de los ciudadanos a los Servicios Públicos",
+        [
+            "Ley 30/1992, de Administraciones Electrónicas y Comunicación Sin Papel",
+            "Ley Orgánica 11/2007, de Administración y Electrónica del Sector Público",
+            "Ley de Administración Electrónica para Ciberseguridad y Servicios Públicos"
+        ],
+        "La Ley 11/2007, de 22 de junio, de Acceso Electrónico de los Ciudadanos a los Servicios Públicos se conoce como LAECSP."
+    ),
+    Pregunta(
+        "Directiva NIS",
+        "¿Cuál es la Directiva europea que se denomina 'Directiva NIS'?",
+        "Directiva (UE) 2016/1148",
+        [
+            "Directiva (UE) 2016/679",
+            "Directiva (UE) 2018/1972",
+            "Directiva 1999/93/CE"
+        ],
+        "La Directiva (UE) 2016/1148 es la directiva sobre seguridad de las redes y sistemas de información, conocida popularmente como Directiva NIS."
+    ),
+    Pregunta(
+        "RGPD",
+        "El Reglamento (UE) 2016/679 es conocido popularmente como:",
+        "Reglamento General de Protección de Datos (RGPD)",
+        [
+            "Reglamento de Servicios Digitales",
+            "Directiva de Privacidad Electrónica",
+            "Reglamento Europeo de Ciberseguridad"
+        ],
+        "El Reglamento (UE) 2016/679 es el Reglamento General de Protección de Datos (RGPD) de la Unión Europea."
+    ),
+    Pregunta(
+        "Administración electrónica",
+        "¿Qué Real Decreto regula la utilización de técnicas electrónicas por la Administración General del Estado desarrollando la Ley 30/92?",
+        "Real Decreto 263/1996, de 16 de febrero",
+        [
+            "Real Decreto 3/2010, de 8 de enero",
+            "Real Decreto 1671/2009, de 6 de noviembre",
+            "Real Decreto 209/2003, de 21 de febrero"
+        ],
+        "El Real Decreto 263/1996, de 16 de febrero, reguló el uso de técnicas electrónicas en la AGE, desarrollando el artículo 45 de la Ley 30/1992."
+    ),
+    Pregunta(
+        "Factura electrónica",
+        "¿Qué ley regula específicamente la factura electrónica en el marco de las medidas de impulso de la sociedad de la información?",
+        "Ley 56/2007, de 28 de diciembre",
+        [
+            "Ley 34/2002, de 11 de julio",
+            "Ley 25/2007, de 18 de octubre",
+            "Ley 59/2003, de 19 de diciembre"
+        ],
+        "La Ley 56/2007, de 28 de diciembre, de Medidas de Impulso de la Sociedad de la Información, regula el uso de la factura electrónica."
+    ),
+    Pregunta(
+        "Estrategia Nacional",
+        "¿Qué disposición aprobó la Estrategia Nacional de Ciberseguridad en el año 2019?",
+        "Orden PCI/487/2019, de 26 de abril",
+        [
+            "Real Decreto 951/2019, de Modificación del ENS",
+            "Resolución de 13 de octubre de 2019",
+            "Ley 12/2019, de Ciberseguridad Nacional"
+        ],
+        "La Estrategia Nacional de Ciberseguridad de 2019 fue publicada mediante la Orden PCI/487/2019, de 26 de abril."
+    ),
+    Pregunta(
+        "Notificaciones telemáticas",
+        "¿Qué normativa regula las notificaciones telemáticas y la sustitución de certificados de papel por medios telemáticos?",
+        "Real Decreto 209/2003, de 21 de febrero",
+        [
+            "Real Decreto 263/1996, de 16 de febrero",
+            "Ley 11/2007, de 22 de junio",
+            "Real Decreto 704/2011"
+        ],
+        "El Real Decreto 209/2003, de 21 de febrero, regula los registros, las notificaciones telemáticas y la sustitución de certificados en papel por medios telemáticos."
+    ),
+    Pregunta(
+        "ENS",
+        "El Real Decreto 951/2015 se caracteriza por:",
+        "Modificar el Real Decreto 3/2010 del Esquema Nacional de Seguridad",
+        [
+            "Aprobar el Reglamento de la Ley de Infraestructuras Críticas",
+            "Establecer las medidas contra el tráfico fraudulento de comunicaciones",
+            "Aprobar los nuevos planes de seguridad del operador crítico"
+        ],
+        "El Real Decreto 951/2015 se caracteriza por modificar el Real Decreto 3/2010 por el que se regula el Esquema Nacional de Seguridad."
+    ),
+    Pregunta(
+        "Administración electrónica",
+        "¿Qué ley establece la validez de los documentos emitidos por medios electrónicos siempre que se asegure su autenticidad e integridad?",
+        "Ley 30/1992 de Régimen Jurídico de las Administraciones Públicas",
+        [
+            "Constitución Española de 1978",
+            "Ley 34/2002 de Comercio Electrónico",
+            "Ley 59/2003 de Firma Electrónica"
+        ],
+        "La Ley 30/1992 de Régimen Jurídico de las Administraciones Públicas (en su artículo 45) sentó las bases para la validez de los documentos electrónicos en la Administración."
+    ),
+    Pregunta(
+        "DEH",
+        "¿Qué norma define el Sistema de Dirección Electrónica Habilitada (DEH)?",
+        "Orden PRE/878/2010, de 5 de abril",
+        [
+            "Real Decreto 3/2010 del ENS",
+            "Real Decreto 1363/2010, de 29 de octubre",
+            "Ley 11/2007 de Acceso Electrónico"
+        ],
+        "La Orden PRE/878/2010, de 5 de abril, regula y establece el régimen de la Dirección Electrónica Habilitada (DEH)."
+    ),
+    Pregunta(
+        "Tráfico fraudulento",
+        "El Real Decreto 381/2015, de 14 de mayo, se dedica a:",
+        "Establecer medidas contra el tráfico no permitido y fraudulento en comunicaciones electrónicas",
+        [
+            "Crear el Instituto Nacional de Ciberseguridad (INCIBE)",
+            "Regular el Esquema Nacional de Interoperabilidad",
+            "Actualizar las sanciones de la LSSI-CE"
+        ],
+        "El Real Decreto 381/2015, de 14 de mayo, se dedica a establecer medidas contra el tráfico no permitido y fraudulento en comunicaciones electrónicas."
+    ),
+    Pregunta(
+        "Comercio electrónico",
+        "La Directiva 2000/31/CE tiene como objetivo principal:",
+        "Reforzar la seguridad jurídica del comercio electrónico en el mercado interior",
+        [
+            "Establecer los estándares de cifrado para las transacciones bancarias",
+            "Unificar las firmas electrónicas en toda la Unión",
+            "Regular el derecho al olvido en buscadores de internet"
+        ],
+        "La Directiva 2000/31/CE tiene como objetivo principal reforzar la seguridad jurídica del comercio electrónico en el mercado interior."
+    ),
+    Pregunta(
+        "Contratación pública",
+        "¿Qué normativa regula la coordinación de los procedimientos de adjudicación de los contratos públicos e introduce la 'subasta electrónica'?",
+        "Directiva 2004/18/CE",
+        [
+            "Directiva 2016/1148 (NIS)",
+            "Real Decreto 3/2010",
+            "Ley 11/2007 de Acceso Electrónico"
+        ],
+        "La Directiva 2004/18/CE coordina la adjudicación de contratos públicos e introduce el concepto de subasta electrónica."
+    ),
+    Pregunta(
+        "Administración electrónica",
+        "¿Qué norma modificó la estructura de los órganos colegiados responsables de la Administración Electrónica, creando el CSAE?",
+        "Real Decreto 589/2005",
+        [
+            "Orden PRE/878/2010",
+            "Ley 11/2007",
+            "Real decreto 3/2010"
+        ],
+        "El Real Decreto 589/2005 reestructuró los órganos colegiados de administración electrónica y creó la Comisión de Estrategia para la Administración Electrónica (CSAE)."
+    ),
+    Pregunta(
+        "Telecomunicaciones",
+        "Identifique la denominación de la Ley 9/2014, de 9 de mayo.",
+        "Ley General de Telecomunicaciones",
+        [
+            "Ley de Infraestructuras Digitales Críticas",
+            "Ley de Ciberseguridad Estratégica",
+            "Ley de Protección de Datos y Garantía Digital"
+        ],
+        "La Ley 9/2014, de 9 de mayo, es la Ley General de Telecomunicaciones."
+    ),
+    Pregunta(
+        "ENS",
+        "¿Qué disposición aprobó la 'Instrucción técnica de Seguridad de conformidad con el Esquema Nacional de Seguridad'?",
+        "Resolución de 13 de octubre de 2016",
+        [
+            "Orden PRE/878/2010",
+            "Ley 11/2007",
+            "Real Decreto 951/2015"
+        ],
+        "La Instrucción Técnica de Seguridad de conformidad con el ENS fue aprobada mediante la Resolución de 13 de octubre de 2016."
+    ),
+    Pregunta(
+        "ISO vs ENS",
+        "¿Qué carácter tienen las normas de la familia ISO/IEC 27000 en comparación con el ENS?",
+        "Son de cumplimiento voluntario, mientras que el ENS es obligatorio para la Administración",
+        [
+            "Ambas son leyes orgánicas aprobadas por el Parlamento Español",
+            "El ENS es voluntario y la ISO 27001 es obligatoria para las PYMES",
+            "Ambas son obligatorias por igual en el sector público y privado"
+        ],
+        "Las normas ISO 27000 son estándares voluntarios, mientras que el ENS es obligatorio para la Administración Pública."
+    ),
+    Pregunta(
+        "Protección de datos",
+        "¿Qué ley orgánica derogó finalmente el Real Decreto-Ley 5/2018?",
+        "Ley Orgánica 3/2018",
+        [
+            "Ley 34/2002",
+            "Ley Orgánica 15/1999",
+            "Ley Orgánica 5/1992"
+        ],
+        "La Ley Orgánica 3/2018 (LOPDGDD) derogó expresamente el Real Decreto-Ley 5/2018, que tenía carácter provisional."
+    ),
+    Pregunta(
+        "ENI",
+        "Dentro del marco legal de Ciberseguridad, ¿qué norma regula el Esquema Nacional de Interoperabilidad?",
+        "Real Decreto 4/2010, de 8 de enero",
+        [
+            "Real Decreto 263/1996",
+            "Ley 56/2007",
+            "Real Decreto 3/2010, de 8 de enero"
+        ],
+        "El Esquema Nacional de Interoperabilidad (ENI) está regulado por el Real Decreto 4/2010, de 8 de enero."
+    ),
+    Pregunta(
+        "Infraestructuras críticas",
+        "¿Cuál es la norma que aprobó el Reglamento de Protección de las Infraestructuras Críticas?",
+        "Real Decreto 704/2011, de 20 de mayo",
+        [
+            "Real Decreto 951/2015",
+            "Real Decreto 3/2010",
+            "Ley 8/2011"
+        ],
+        "El Real Decreto 704/2011, de 20 de mayo, aprueba el Reglamento de protección de las infraestructuras críticas."
+    ),
 ]
 # Este fichero solo contiene el banco de preguntas del Tema 6.
 # Para ejecutar el test, usa main.py
