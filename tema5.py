@@ -575,14 +575,14 @@ BANCO: List[Pregunta] = [
     ),
     Pregunta(
         "ITIL",
-        "El objetivo de ITIL v3 es:",
+        "El objetivo de ITIL v2 es:",
         "Alinear las Tecnologías de la Información con el negocio",
         [
             "Mejorar las comunicaciones de la organización",
             "Separar las funciones de las Tecnologías de la Información",
             "Integrar las Tecnologías de la Información en el negocio",
         ],
-        "El objetivo de ITIL v3 es alinear (no integrar) las TI con el negocio.",
+        "El objetivo de ITIL v2 es alinear (no integrar) las TI con el negocio.",
     ),
     Pregunta(
         "ITIL",
@@ -743,7 +743,7 @@ BANCO: List[Pregunta] = [
         "¿Cuáles de las siguientes respuestas son metodologías reconocidas de análisis de riesgos?",
         "todas las anteriores",
         [
-            "Magerit II",
+            "Magerit III",
             "Ebios",
             "CRAMM",
         ],
@@ -752,13 +752,13 @@ BANCO: List[Pregunta] = [
     Pregunta(
         "Metodologías de análisis de riesgos",
         "Entre las posibles metodologías que se pueden utilizar para realizar un análisis de riesgos están:",
-        "CRAMM, EBIOS y MAGERIT II",
+        "CRAMM, EBIOS y MAGERIT III",
         [
-            "ITIL, ISO 27.001 y MAGERIT II",
-            "ITIL v3, CRAMM y MAGERIT II",
+            "ITIL, ISO 27.001 y MAGERIT III",
+            "ITIL v3, CRAMM y MAGERIT III",
             "Ninguna de las respuestas es correcta",
         ],
-        "Las metodologías reconocidas de análisis de riesgos son CRAMM, EBIOS y MAGERIT II.",
+        "Las metodologías reconocidas de análisis de riesgos son CRAMM, EBIOS y MAGERIT III.",
     ),
     Pregunta(
         "Metodologías de análisis de riesgos",
