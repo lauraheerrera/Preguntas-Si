@@ -988,6 +988,71 @@ const QUESTIONS = [
     "explicacion": "La esteganografía basa su seguridad en ocultar la existencia del mensaje (oscuridad), no en el conocimiento de un secreto como la criptología o la biometría."
   },
   {
+    "temaNum": 1,
+    "temaNombre": "Tema 1: Visión Integral de la Seguridad",
+    "seccion": "Dimensiones de seguridad",
+    "pregunta": "Las dimensiones de la seguridad asociadas a la FIABILIDAD de la información son:",
+    "correcta": "Confidencialidad e Integridad",
+    "distractores": [
+      "Autenticación e Integridad",
+      "Autenticación y Confidencialidad",
+      "No repudio e Integridad"
+    ],
+    "explicacion": "Las dimensiones de la seguridad asociadas a la fiabilidad son confidencialidad e integridad (UA1/Tema 1)."
+  },
+  {
+    "temaNum": 1,
+    "temaNombre": "Tema 1: Visión Integral de la Seguridad",
+    "seccion": "Seguridad lógica",
+    "pregunta": "El control de soportes móviles de almacenamiento de datos corresponde a",
+    "correcta": "La seguridad lógica",
+    "distractores": [
+      "La seguridad en las comunicaciones",
+      "La seguridad física y del entorno",
+      "La Seguridad organizativa"
+    ],
+    "explicacion": "El control de soportes móviles de almacenamiento de datos corresponde a la seguridad lógica (UA1/Tema 1)."
+  },
+  {
+    "temaNum": 1,
+    "temaNombre": "Tema 1: Visión Integral de la Seguridad",
+    "seccion": "Definiciones",
+    "pregunta": "¿Qué se entiende por VULNERABILIDAD?",
+    "correcta": "Una debilidad del sistema que puede ser utilizada accidental o intencionadamente",
+    "distractores": [
+      "Una debilidad del sistema ocasionada por un ataque informático",
+      "Una debilidad del sistema que sólo puede ser utilizada accidentalmente",
+      "Una debilidad del sistema que sólo puede ser utilizada intencionadamente"
+    ],
+    "explicacion": "Una vulnerabilidad es una debilidad del sistema que puede ser explotada de forma fortuita o intencionada (UA1/Tema 1)."
+  },
+  {
+    "temaNum": 1,
+    "temaNombre": "Tema 1: Visión Integral de la Seguridad",
+    "seccion": "Visión integral",
+    "pregunta": "¿Qué vertientes es necesario considerar para lograr una concepción integral de la seguridad?",
+    "correcta": "Normativa, legislación y control de riesgos",
+    "distractores": [
+      "Legislación, negocio y control de riesgos",
+      "Amenazas tecnológicas, normativa y control de riesgos",
+      "Negocio, normativa y amenazas tecnológicas"
+    ],
+    "explicacion": "Para lograr una concepción integral de la seguridad es necesario considerar tres vertientes: normativa, legislación y control de riesgos (UA1/Tema 1)."
+  },
+  {
+    "temaNum": 1,
+    "temaNombre": "Tema 1: Visión Integral de la Seguridad",
+    "seccion": "Conceptos básicos",
+    "pregunta": "¿Qué preguntas se deben considerar en una de las técnicas más habituales para analizar la seguridad de una organización?",
+    "correcta": "Qué proteger, contra quién, cómo y hasta dónde",
+    "distractores": [
+      "Qué, cómo, y hasta dónde proteger",
+      "Qué, cómo y contra quién proteger",
+      "Qué, cómo, cuándo y dónde proteger"
+    ],
+    "explicacion": "Una de las técnicas habituales consiste en plantearse las cuatro preguntas fundamentales: qué proteger, contra quién, cómo y hasta dónde (UA1/Tema 1)."
+  },
+  {
     "temaNum": 2,
     "temaNombre": "Tema 2: Algoritmos y Criptografía",
     "seccion": "Clave simétrica",
@@ -2236,6 +2301,32 @@ const QUESTIONS = [
     "explicacion": "Según el banco de preguntas oficial de la asignatura, el protocolo S-HTTP se basa en un sistema vertical, ya que utiliza certificados digitales."
   },
   {
+    "temaNum": 2,
+    "temaNombre": "Tema 2: Algoritmos y Criptografía",
+    "seccion": "Cifrado - Erratas",
+    "pregunta": "Si ciframos un documento utilizando OpenSSL con clave y vector de inicialización con el algoritmo RCA ¿cómo será el tamaño del documento en relación con el original?",
+    "correcta": "Idéntico",
+    "distractores": [
+      "16 bytes mayor",
+      "16 bytes mayor, más el padding hasta múltiplo de 16 bytes",
+      "16 bytes mayor, más el padding hasta múltiplo de 32 bytes"
+    ],
+    "explicacion": "RCA es una errata por RC4 (cifrador de flujo). Al no tener tamaño de bloque ni padding, el tamaño del documento cifrado es idéntico al original."
+  },
+  {
+    "temaNum": 2,
+    "temaNombre": "Tema 2: Algoritmos y Criptografía",
+    "seccion": "Cifrado asimétrico",
+    "pregunta": "¿Qué dimensión de la seguridad hemos de reforzar si queremos evitar un ataque de intermediario?",
+    "correcta": "Autenticación",
+    "distractores": [
+      "Privacidad",
+      "Integridad",
+      "Confidencialidad"
+    ],
+    "explicacion": "Un ataque de intermediario (Man in the Middle) se evita reforzando la autenticación para asegurar la identidad de los interlocutores (UA2/Tema 2)."
+  },
+  {
     "temaNum": 3,
     "temaNombre": "Tema 3: Amenazas a los Sistemas de Información",
     "seccion": "Tipos de amenazas",
@@ -3131,6 +3222,32 @@ const QUESTIONS = [
       "Descargado al visitar una página web maliciosa"
     ],
     "explicacion": "Los troyanos pueden llegar por múltiples vías: descarga automática, adjuntos de correo o páginas web maliciosas."
+  },
+  {
+    "temaNum": 3,
+    "temaNombre": "Tema 3: Amenazas a los Sistemas de Información",
+    "seccion": "Amenazas - DNS",
+    "pregunta": "¿Cuál de estas amenazas tiene relación directa con el servicio de nombres DNS?",
+    "correcta": "Pharming",
+    "distractores": [
+      "Cross-site Scripting",
+      "DDOS",
+      "Phishing"
+    ],
+    "explicacion": "El pharming consiste en envenenar/intoxicar la caché DNS para redirigir las conexiones a servidores maliciosos (UA3/Tema 3)."
+  },
+  {
+    "temaNum": 3,
+    "temaNombre": "Tema 3: Amenazas a los Sistemas de Información",
+    "seccion": "Amenazas - Rootkits",
+    "pregunta": "Las luces de la tarjeta de red de mi ordenador de sobremesa muestran gran actividad, siendo yo el único usuario conectado en casa, pero el monitor del sistema indica que el tráfico de red es mínimo ¿Cuál es la causa más probable?",
+    "correcta": "Mi ordenador tiene un rootkit",
+    "distractores": [
+      "Mi ordenador tiene un criptovirus",
+      "Mi ordenador tiene un bot de spam",
+      "Mi ordenador tiene un bot de minado de criptomonedas"
+    ],
+    "explicacion": "Un rootkit puede ocultar su propia actividad de red modificando las herramientas de monitorización del sistema operativo (que reportarán tráfico mínimo), mientras que la tarjeta física sigue transmitiendo a alta velocidad."
   },
   {
     "temaNum": 4,
@@ -6420,5 +6537,57 @@ const QUESTIONS = [
       "Ley 8/2011"
     ],
     "explicacion": "El Real Decreto 704/2011, de 20 de mayo, aprueba el Reglamento de protección de las infraestructuras críticas."
+  },
+  {
+    "temaNum": 6,
+    "temaNombre": "Tema 6: Legislación y Normativa",
+    "seccion": "Protección de datos",
+    "pregunta": "¿Cuáles de estos tipos de ficheros requieren medidas de seguridad de nivel ALTO en la LOPD?",
+    "correcta": "Los que contengan o se reflejen datos recabados para fines policiales sin consentimiento de las personas o afectados",
+    "distractores": [
+      "Aquellos de los que sean responsables las entidades financieras para finalidades relacionadas con la prestación de servicios financieros",
+      "Los relativos a la comisión de infracciones administrativas o penales",
+      "Aquellos de los que sean responsable Administraciones tributarias y se relacionen con el ejercicio de sus potestades tributarias"
+    ],
+    "explicacion": "El reglamento de la LOPD establece nivel alto para datos de ideología, religión, salud, etc., y datos policiales recabados sin consentimiento (UA6/Tema 6)."
+  },
+  {
+    "temaNum": 6,
+    "temaNombre": "Tema 6: Legislación y Normativa",
+    "seccion": "Protección de datos",
+    "pregunta": "Según la LOPD, las medidas de seguridad a aplicar a los ficheros de videovigilancia serán:",
+    "correcta": "De nivel Básico",
+    "distractores": [
+      "De nivel ALTO, salvo que sólo recojan imágenes dentro de un recinto privado, en cuyo caso serán de nivel MEDIO",
+      "De nivel BÁSICO, salvo que recojan imágenes de la vía pública en cuyo caso serán de nivel MEDIO",
+      "De nivel MEDIO"
+    ],
+    "explicacion": "El reglamento de desarrollo de la LOPD estipula que a los ficheros con fines de videovigilancia se les aplican las medidas de nivel básico (UA6/Tema 6)."
+  },
+  {
+    "temaNum": 6,
+    "temaNombre": "Tema 6: Legislación y Normativa",
+    "seccion": "Protección de datos",
+    "pregunta": "¿En cuál de los siguientes tipos de ficheros SÍ es de aplicación lo indicado en la LOPD?",
+    "correcta": "Los que contengan o se refieran a datos recabados para fines policiales",
+    "distractores": [
+      "Los realizados o mantenidos por personas físicas en el ejercicio de actividades exclusivamente personales o domésticas",
+      "Los establecidos para la investigación del terrorismo y de formas graves de delincuencia organizada",
+      "Los sometidos a la normativa sobre protección de materias clasificadas"
+    ],
+    "explicacion": "La LOPD es de aplicación a los ficheros policiales, mientras que excluye el ámbito doméstico, terrorismo/delincuencia grave y materias clasificadas (UA6/Tema 6)."
+  },
+  {
+    "temaNum": 6,
+    "temaNombre": "Tema 6: Legislación y Normativa",
+    "seccion": "Protección de datos",
+    "pregunta": "La auditoría de protección de datos se debe realizar:",
+    "correcta": "A partir del nivel MEDIO, al menos cada DOS años",
+    "distractores": [
+      "A partir del nivel ALTO, al menos cada DOS años",
+      "A partir del nivel BÁSICO, al menos cada DOS años",
+      "A partir del nivel ALTO, al menos cada TRES años"
+    ],
+    "explicacion": "El reglamento de la LOPD establece la obligatoriedad de realizar una auditoría al menos cada dos años para los ficheros con nivel medio o alto (UA6/Tema 6)."
   }
 ];

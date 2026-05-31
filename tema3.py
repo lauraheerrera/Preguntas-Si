@@ -819,4 +819,26 @@ BANCO: List[Pregunta] = [
         ],
         "Los troyanos pueden llegar por múltiples vías: descarga automática, adjuntos de correo o páginas web maliciosas.",
     ),
+    Pregunta(
+        "Amenazas - DNS",
+        "¿Cuál de estas amenazas tiene relación directa con el servicio de nombres DNS?",
+        "Pharming",
+        [
+            "Cross-site Scripting",
+            "DDOS",
+            "Phishing",
+        ],
+        "El pharming consiste en envenenar/intoxicar la caché DNS para redirigir las conexiones a servidores maliciosos (UA3/Tema 3).",
+    ),
+    Pregunta(
+        "Amenazas - Rootkits",
+        "Las luces de la tarjeta de red de mi ordenador de sobremesa muestran gran actividad, siendo yo el único usuario conectado en casa, pero el monitor del sistema indica que el tráfico de red es mínimo ¿Cuál es la causa más probable?",
+        "Mi ordenador tiene un rootkit",
+        [
+            "Mi ordenador tiene un criptovirus",
+            "Mi ordenador tiene un bot de spam",
+            "Mi ordenador tiene un bot de minado de criptomonedas",
+        ],
+        "Un rootkit puede ocultar su propia actividad de red modificando las herramientas de monitorización del sistema operativo (que reportarán tráfico mínimo), mientras que la tarjeta física sigue transmitiendo a alta velocidad.",
+    ),
 ]

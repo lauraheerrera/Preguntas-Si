@@ -1357,6 +1357,50 @@ BANCO: List[Pregunta] = [
         ],
         "El Real Decreto 704/2011, de 20 de mayo, aprueba el Reglamento de protección de las infraestructuras críticas."
     ),
+    Pregunta(
+        "Protección de datos",
+        "¿Cuáles de estos tipos de ficheros requieren medidas de seguridad de nivel ALTO en la LOPD?",
+        "Los que contengan o se reflejen datos recabados para fines policiales sin consentimiento de las personas o afectados",
+        [
+            "Aquellos de los que sean responsables las entidades financieras para finalidades relacionadas con la prestación de servicios financieros",
+            "Los relativos a la comisión de infracciones administrativas o penales",
+            "Aquellos de los que sean responsable Administraciones tributarias y se relacionen con el ejercicio de sus potestades tributarias"
+        ],
+        "El reglamento de la LOPD establece nivel alto para datos de ideología, religión, salud, etc., y datos policiales recabados sin consentimiento (UA6/Tema 6)."
+    ),
+    Pregunta(
+        "Protección de datos",
+        "Según la LOPD, las medidas de seguridad a aplicar a los ficheros de videovigilancia serán:",
+        "De nivel Básico",
+        [
+            "De nivel ALTO, salvo que sólo recojan imágenes dentro de un recinto privado, en cuyo caso serán de nivel MEDIO",
+            "De nivel BÁSICO, salvo que recojan imágenes de la vía pública en cuyo caso serán de nivel MEDIO",
+            "De nivel MEDIO"
+        ],
+        "El reglamento de desarrollo de la LOPD estipula que a los ficheros con fines de videovigilancia se les aplican las medidas de nivel básico (UA6/Tema 6)."
+    ),
+    Pregunta(
+        "Protección de datos",
+        "¿En cuál de los siguientes tipos de ficheros SÍ es de aplicación lo indicado en la LOPD?",
+        "Los que contengan o se refieran a datos recabados para fines policiales",
+        [
+            "Los realizados o mantenidos por personas físicas en el ejercicio de actividades exclusivamente personales o domésticas",
+            "Los establecidos para la investigación del terrorismo y de formas graves de delincuencia organizada",
+            "Los sometidos a la normativa sobre protección de materias clasificadas",
+        ],
+        "La LOPD es de aplicación a los ficheros policiales, mientras que excluye el ámbito doméstico, terrorismo/delincuencia grave y materias clasificadas (UA6/Tema 6).",
+    ),
+    Pregunta(
+        "Protección de datos",
+        "La auditoría de protección de datos se debe realizar:",
+        "A partir del nivel MEDIO, al menos cada DOS años",
+        [
+            "A partir del nivel ALTO, al menos cada DOS años",
+            "A partir del nivel BÁSICO, al menos cada DOS años",
+            "A partir del nivel ALTO, al menos cada TRES años",
+        ],
+        "El reglamento de la LOPD establece la obligatoriedad de realizar una auditoría al menos cada dos años para los ficheros con nivel medio o alto (UA6/Tema 6).",
+    ),
 ]
 # Este fichero solo contiene el banco de preguntas del Tema 6.
 # Para ejecutar el test, usa main.py

@@ -890,4 +890,59 @@ BANCO: List[Pregunta] = [
         ],
         "La esteganografía basa su seguridad en ocultar la existencia del mensaje (oscuridad), no en el conocimiento de un secreto como la criptología o la biometría.",
     ),
+    Pregunta(
+        "Dimensiones de seguridad",
+        "Las dimensiones de la seguridad asociadas a la FIABILIDAD de la información son:",
+        "Confidencialidad e Integridad",
+        [
+            "Autenticación e Integridad",
+            "Autenticación y Confidencialidad",
+            "No repudio e Integridad",
+        ],
+        "Las dimensiones de la seguridad asociadas a la fiabilidad son confidencialidad e integridad (UA1/Tema 1).",
+    ),
+    Pregunta(
+        "Seguridad lógica",
+        "El control de soportes móviles de almacenamiento de datos corresponde a",
+        "La seguridad lógica",
+        [
+            "La seguridad en las comunicaciones",
+            "La seguridad física y del entorno",
+            "La Seguridad organizativa",
+        ],
+        "El control de soportes móviles de almacenamiento de datos corresponde a la seguridad lógica (UA1/Tema 1).",
+    ),
+    Pregunta(
+        "Definiciones",
+        "¿Qué se entiende por VULNERABILIDAD?",
+        "Una debilidad del sistema que puede ser utilizada accidental o intencionadamente",
+        [
+            "Una debilidad del sistema ocasionada por un ataque informático",
+            "Una debilidad del sistema que sólo puede ser utilizada accidentalmente",
+            "Una debilidad del sistema que sólo puede ser utilizada intencionadamente",
+        ],
+        "Una vulnerabilidad es una debilidad del sistema que puede ser explotada de forma fortuita o intencionada (UA1/Tema 1).",
+    ),
+    Pregunta(
+        "Visión integral",
+        "¿Qué vertientes es necesario considerar para lograr una concepción integral de la seguridad?",
+        "Normativa, legislación y control de riesgos",
+        [
+            "Legislación, negocio y control de riesgos",
+            "Amenazas tecnológicas, normativa y control de riesgos",
+            "Negocio, normativa y amenazas tecnológicas",
+        ],
+        "Para lograr una concepción integral de la seguridad es necesario considerar tres vertientes: normativa, legislación y control de riesgos (UA1/Tema 1).",
+    ),
+    Pregunta(
+        "Conceptos básicos",
+        "¿Qué preguntas se deben considerar en una de las técnicas más habituales para analizar la seguridad de una organización?",
+        "Qué proteger, contra quién, cómo y hasta dónde",
+        [
+            "Qué, cómo, y hasta dónde proteger",
+            "Qué, cómo y contra quién proteger",
+            "Qué, cómo, cuándo y dónde proteger",
+        ],
+        "Una de las técnicas habituales consiste en plantearse las cuatro preguntas fundamentales: qué proteger, contra quién, cómo y hasta dónde (UA1/Tema 1).",
+    ),
 ]

@@ -876,6 +876,28 @@ BANCO: List[Pregunta] = [
         ],
         "Según el banco de preguntas oficial de la asignatura, el protocolo S-HTTP se basa en un sistema vertical, ya que utiliza certificados digitales.",
     ),
+    Pregunta(
+        "Cifrado - Erratas",
+        "Si ciframos un documento utilizando OpenSSL con clave y vector de inicialización con el algoritmo RCA ¿cómo será el tamaño del documento en relación con el original?",
+        "Idéntico",
+        [
+            "16 bytes mayor",
+            "16 bytes mayor, más el padding hasta múltiplo de 16 bytes",
+            "16 bytes mayor, más el padding hasta múltiplo de 32 bytes",
+        ],
+        "RCA es una errata por RC4 (cifrador de flujo). Al no tener tamaño de bloque ni padding, el tamaño del documento cifrado es idéntico al original.",
+    ),
+    Pregunta(
+        "Cifrado asimétrico",
+        "¿Qué dimensión de la seguridad hemos de reforzar si queremos evitar un ataque de intermediario?",
+        "Autenticación",
+        [
+            "Privacidad",
+            "Integridad",
+            "Confidencialidad",
+        ],
+        "Un ataque de intermediario (Man in the Middle) se evita reforzando la autenticación para asegurar la identidad de los interlocutores (UA2/Tema 2).",
+    ),
 ]
 
 
