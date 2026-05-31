@@ -1433,6 +1433,7 @@
         let testTimerInterval = null;
         let testTimeSeconds = 0;
         let examConfirmedCount = 0; // Tracks questions with options clicked
+        let isLoadingState = false; // Flag to prevent overwriting localStorage while reloading state
 
         // Helper to determine the currently active screen
         function getCurrentScreen() {
@@ -1446,6 +1447,8 @@
 
         // Save progress state to localStorage
         function saveState() {
+            if (isLoadingState) return; // Prevent overwriting during loadState!
+
             const screen = getCurrentScreen();
             const state = {
                 selectedThemes: selectedThemes,
@@ -1476,6 +1479,7 @@
 
         // Load progress state from localStorage
         function loadState() {
+            isLoadingState = true;
             try {
                 const raw = localStorage.getItem('ulpgc_si_quiz_state');
                 if (raw) {
@@ -1500,6 +1504,7 @@
                             userSelections = state.userSelections || [];
                             currentQuestionIdx = state.currentQuestionIdx || 0;
                             testTimeSeconds = state.testTimeSeconds || 0;
+                            isLoadingState = false;
                             resumeQuiz();
                             return;
                         } else if (state.currentScreen === 'results' && state.currentTestQuestions && state.currentTestQuestions.length > 0) {
@@ -1507,6 +1512,7 @@
                             userSelections = state.userSelections || [];
                             currentQuestionIdx = state.currentQuestionIdx || 0;
                             testTimeSeconds = state.testTimeSeconds || 0;
+                            isLoadingState = false;
                             showResults();
                             return;
                         }
@@ -1517,6 +1523,7 @@
             }
 
             // Default fallback
+            isLoadingState = false;
             loadTopicsGrid();
         }
 
