@@ -785,11 +785,11 @@ BANCO: List[Pregunta] = [
     Pregunta(
         "Auditoría de seguridad",
         "¿Cuál de las siguientes tareas NO corresponde a la realización de una auditoría informática?",
-        "verificar que un sistema realiza de forma eficaz los fines de la organización y utiliza eficientemente los recursos",
+        "identificar las amenazas y proponer salvaguardas para proteger a la organización",
         [
+            "verificar que un sistema realiza de forma eficaz los fines de la organización y utiliza eficientemente los recursos",
             "recoger, agrupar y evaluar evidencias para determinar si un sistema de información protege el activo empresarial",
             "verificar que se mantiene la integridad de los datos",
-            "identificar las amenazas y proponer salvaguardas para proteger a la organización",
         ],
         "Según el banco de preguntas oficial de la asignatura, verificar el uso eficaz y eficiente de los recursos no se considera una tarea directa en esta pregunta específica de auditoría.",
     ),
