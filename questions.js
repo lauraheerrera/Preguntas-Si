@@ -4619,13 +4619,13 @@ const QUESTIONS = [
     "temaNombre": "Tema 5: Instrumentos para la Gestión",
     "seccion": "ITIL",
     "pregunta": "El objetivo de ITIL v2 es:",
-    "correcta": "Integrar las Tecnologías de la Información en el negocio",
+    "correcta": "Alinear las Tecnologías de la Información con el negocio",
     "distractores": [
       "Mejorar las comunicaciones de la organización",
-      "Alinear las Tecnologías de la Información con el negocio",
-      "Separar las funciones de las Tecnologías de la Información"
+      "Separar las funciones de las Tecnologías de la Información",
+      "Integrar las Tecnologías de la Información en el negocio"
     ],
-    "explicacion": "El objetivo de ITIL v2 es integrar las TI con el negocio."
+    "explicacion": "El objetivo de ITIL v2 es alinear las TI con el negocio."
   },
   {
     "temaNum": 5,
