@@ -743,7 +743,7 @@ BANCO: List[Pregunta] = [
         "¿Cuáles de las siguientes respuestas son metodologías reconocidas de análisis de riesgos?",
         "todas las anteriores",
         [
-            "Magerit III",
+            "Magerit v3",
             "Ebios",
             "CRAMM",
         ],
@@ -752,10 +752,10 @@ BANCO: List[Pregunta] = [
     Pregunta(
         "Metodologías de análisis de riesgos",
         "Entre las posibles metodologías que se pueden utilizar para realizar un análisis de riesgos están:",
-        "CRAMM, EBIOS y MAGERIT III",
+        "CRAMM, EBIOS y MAGERIT v3",
         [
-            "ITIL, ISO 27.001 y MAGERIT III",
-            "ITIL v3, CRAMM y MAGERIT III",
+            "ITIL, ISO 27.001 y MAGERIT v3",
+            "ITIL v3, CRAMM y MAGERIT v3",
             "Ninguna de las respuestas es correcta",
         ],
         "Las metodologías reconocidas de análisis de riesgos son CRAMM, EBIOS y MAGERIT III.",
