@@ -4618,14 +4618,14 @@ const QUESTIONS = [
     "temaNum": 5,
     "temaNombre": "Tema 5: Instrumentos para la Gestión",
     "seccion": "ITIL",
-    "pregunta": "El objetivo de ITIL v3 es:",
-    "correcta": "Alinear las Tecnologías de la Información con el negocio",
+    "pregunta": "El objetivo de ITIL v2 es:",
+    "correcta": "Integrar las Tecnologías de la Información en el negocio",
     "distractores": [
       "Mejorar las comunicaciones de la organización",
-      "Separar las funciones de las Tecnologías de la Información",
-      "Integrar las Tecnologías de la Información en el negocio"
+      "Alinear las Tecnologías de la Información con el negocio",
+      "Separar las funciones de las Tecnologías de la Información"
     ],
-    "explicacion": "El objetivo de ITIL v3 es alinear (no integrar) las TI con el negocio."
+    "explicacion": "El objetivo de ITIL v2 es integrar las TI con el negocio."
   },
   {
     "temaNum": 5,
@@ -4816,7 +4816,7 @@ const QUESTIONS = [
     "pregunta": "¿Cuáles de las siguientes respuestas son metodologías reconocidas de análisis de riesgos?",
     "correcta": "todas las anteriores",
     "distractores": [
-      "Magerit II",
+      "Magerit v3",
       "Ebios",
       "CRAMM"
     ],
@@ -4827,13 +4827,13 @@ const QUESTIONS = [
     "temaNombre": "Tema 5: Instrumentos para la Gestión",
     "seccion": "Metodologías de análisis de riesgos",
     "pregunta": "Entre las posibles metodologías que se pueden utilizar para realizar un análisis de riesgos están:",
-    "correcta": "CRAMM, EBIOS y MAGERIT II",
+    "correcta": "CRAMM, EBIOS y MAGERIT v3",
     "distractores": [
-      "ITIL, ISO 27.001 y MAGERIT II",
-      "ITIL v3, CRAMM y MAGERIT II",
+      "ITIL, ISO 27.001 y MAGERIT v3",
+      "ITIL v3, CRAMM y MAGERIT v3",
       "Ninguna de las respuestas es correcta"
     ],
-    "explicacion": "Las metodologías reconocidas de análisis de riesgos son CRAMM, EBIOS y MAGERIT II."
+    "explicacion": "Las metodologías reconocidas de análisis de riesgos son CRAMM, EBIOS y MAGERIT III."
   },
   {
     "temaNum": 5,
@@ -4866,11 +4866,11 @@ const QUESTIONS = [
     "temaNombre": "Tema 5: Instrumentos para la Gestión",
     "seccion": "Auditoría de seguridad",
     "pregunta": "¿Cuál de las siguientes tareas NO corresponde a la realización de una auditoría informática?",
-    "correcta": "verificar que un sistema realiza de forma eficaz los fines de la organización y utiliza eficientemente los recursos",
+    "correcta": "identificar las amenazas y proponer salvaguardas para proteger a la organización",
     "distractores": [
+      "verificar que un sistema realiza de forma eficaz los fines de la organización y utiliza eficientemente los recursos",
       "recoger, agrupar y evaluar evidencias para determinar si un sistema de información protege el activo empresarial",
-      "verificar que se mantiene la integridad de los datos",
-      "identificar las amenazas y proponer salvaguardas para proteger a la organización"
+      "verificar que se mantiene la integridad de los datos"
     ],
     "explicacion": "Según el banco de preguntas oficial de la asignatura, verificar el uso eficaz y eficiente de los recursos no se considera una tarea directa en esta pregunta específica de auditoría."
   },
