@@ -992,9 +992,9 @@ const QUESTIONS = [
     "temaNombre": "Tema 1: Visión Integral de la Seguridad",
     "seccion": "Dimensiones de seguridad",
     "pregunta": "Las dimensiones de la seguridad asociadas a la FIABILIDAD de la información son:",
-    "correcta": "Confidencialidad e Integridad",
+    "correcta": "Autenticación e Integridad",
     "distractores": [
-      "Autenticación e Integridad",
+      "Confidencialidad e Integridad",
       "Autenticación y Confidencialidad",
       "No repudio e Integridad"
     ],
@@ -1005,10 +1005,10 @@ const QUESTIONS = [
     "temaNombre": "Tema 1: Visión Integral de la Seguridad",
     "seccion": "Seguridad lógica",
     "pregunta": "El control de soportes móviles de almacenamiento de datos corresponde a",
-    "correcta": "La seguridad lógica",
+    "correcta": "La seguridad física y del entorno",
     "distractores": [
       "La seguridad en las comunicaciones",
-      "La seguridad física y del entorno",
+      "La seguridad lógica",
       "La Seguridad organizativa"
     ],
     "explicacion": "El control de soportes móviles de almacenamiento de datos corresponde a la seguridad lógica (UA1/Tema 1)."
@@ -1031,11 +1031,11 @@ const QUESTIONS = [
     "temaNombre": "Tema 1: Visión Integral de la Seguridad",
     "seccion": "Visión integral",
     "pregunta": "¿Qué vertientes es necesario considerar para lograr una concepción integral de la seguridad?",
-    "correcta": "Normativa, legislación y control de riesgos",
+    "correcta": "Negocio, normativa y amenazas tecnológicas",
     "distractores": [
       "Legislación, negocio y control de riesgos",
       "Amenazas tecnológicas, normativa y control de riesgos",
-      "Negocio, normativa y amenazas tecnológicas"
+      "Normativa, legislación y control de riesgos"
     ],
     "explicacion": "Para lograr una concepción integral de la seguridad es necesario considerar tres vertientes: normativa, legislación y control de riesgos (UA1/Tema 1)."
   },
