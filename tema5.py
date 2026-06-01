@@ -576,13 +576,13 @@ BANCO: List[Pregunta] = [
     Pregunta(
         "ITIL",
         "El objetivo de ITIL v2 es:",
-        "Alinear las Tecnologías de la Información con el negocio",
+        "Integrar las Tecnologías de la Información en el negocio",
         [
             "Mejorar las comunicaciones de la organización",
+            "Alinear las Tecnologías de la Información con el negocio",
             "Separar las funciones de las Tecnologías de la Información",
-            "Integrar las Tecnologías de la Información en el negocio",
         ],
-        "El objetivo de ITIL v2 es alinear (no integrar) las TI con el negocio.",
+        "El objetivo de ITIL v2 es integrar las TI con el negocio.",
     ),
     Pregunta(
         "ITIL",
